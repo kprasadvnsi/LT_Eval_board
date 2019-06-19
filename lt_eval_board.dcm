@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADV7123
+D Triple 10-Bit High Speed Video DAC
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADV7123.pdf
+$ENDCMP
+#
+$CMP CS4344
+D 10-Pin, 24-Bit, 192 kHz Stereo D/A Converter
+F https://statics.cirrus.com/pubs/proDatasheet/CS4344-45-48_F2.pdf
+$ENDCMP
+#
+#End Doc Library

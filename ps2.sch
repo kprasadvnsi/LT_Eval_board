@@ -1,0 +1,323 @@
+EESchema Schematic File Version 4
+LIBS:LT_Eval_board-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 7
+Title "LT_Eval_board"
+Date "2019-06-16"
+Rev "v1.0.0"
+Comp "https://github.com/kprasadvnsi/LT_Eval_board"
+Comment1 "License: CC-BY-SA V4.0"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Diode:BAT54S D?
+U 1 1 5D07F41B
+P 5150 2200
+F 0 "D?" H 5150 2425 50  0000 C CNN
+F 1 "BAT54S" H 5150 2334 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5225 2325 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5030 2200 50  0001 C CNN
+	1    5150 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D?
+U 1 1 5D07FCC7
+P 5150 3100
+F 0 "D?" H 5150 3233 50  0000 C CNN
+F 1 "BAT54S" H 5150 3324 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5225 3225 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5030 3100 50  0001 C CNN
+	1    5150 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D080306
+P 4350 2550
+F 0 "R?" V 4300 2400 50  0000 C CNN
+F 1 "R" V 4300 2700 50  0000 C CNN
+F 2 "" V 4280 2550 50  0001 C CNN
+F 3 "~" H 4350 2550 50  0001 C CNN
+	1    4350 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D080849
+P 4350 2750
+F 0 "R?" V 4300 2600 50  0000 C CNN
+F 1 "R" V 4300 2900 50  0000 C CNN
+F 2 "" V 4280 2750 50  0001 C CNN
+F 3 "~" H 4350 2750 50  0001 C CNN
+	1    4350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Mini-DIN-6 J?
+U 1 1 5D07D04B
+P 5950 2650
+F 0 "J?" H 5950 2400 50  0000 C CNN
+F 1 "Mini-DIN-6" H 5950 2900 50  0000 C CNN
+F 2 "" H 5950 2650 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 5950 2650 50  0001 C CNN
+	1    5950 2650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 2550 5150 2550
+Connection ~ 5150 2550
+Wire Wire Line
+	5150 2550 5650 2550
+$Comp
+L power:GND #PWR?
+U 1 1 5D094AF6
+P 4850 2300
+F 0 "#PWR?" H 4850 2050 50  0001 C CNN
+F 1 "GND" H 4855 2127 50  0000 C CNN
+F 2 "" H 4850 2300 50  0001 C CNN
+F 3 "" H 4850 2300 50  0001 C CNN
+	1    4850 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 2300 4850 2200
+Wire Wire Line
+	5150 2400 5150 2550
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D095BB7
+P 5450 2100
+F 0 "#PWR?" H 5450 1950 50  0001 C CNN
+F 1 "+3V3" H 5465 2273 50  0000 C CNN
+F 2 "" H 5450 2100 50  0001 C CNN
+F 3 "" H 5450 2100 50  0001 C CNN
+	1    5450 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 2100 5450 2200
+Wire Wire Line
+	4500 2750 5150 2750
+Wire Wire Line
+	5150 2900 5150 2750
+Connection ~ 5150 2750
+Wire Wire Line
+	5150 2750 5650 2750
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D09F81C
+P 4850 3000
+F 0 "#PWR?" H 4850 2850 50  0001 C CNN
+F 1 "+3V3" H 4865 3173 50  0000 C CNN
+F 2 "" H 4850 3000 50  0001 C CNN
+F 3 "" H 4850 3000 50  0001 C CNN
+	1    4850 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D0A0712
+P 5450 3200
+F 0 "#PWR?" H 5450 2950 50  0001 C CNN
+F 1 "GND" H 5455 3027 50  0000 C CNN
+F 2 "" H 5450 3200 50  0001 C CNN
+F 3 "" H 5450 3200 50  0001 C CNN
+	1    5450 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3000 4850 3100
+Wire Wire Line
+	5450 3100 5450 3200
+NoConn ~ 6250 2550
+NoConn ~ 6250 2750
+$Comp
+L power:GND #PWR?
+U 1 1 5D0A2D26
+P 5550 2800
+F 0 "#PWR?" H 5550 2550 50  0001 C CNN
+F 1 "GND" H 5555 2627 50  0000 C CNN
+F 2 "" H 5550 2800 50  0001 C CNN
+F 3 "" H 5550 2800 50  0001 C CNN
+	1    5550 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 2650 5550 2650
+$Comp
+L power:+5V #PWR?
+U 1 1 5D0A37AF
+P 6350 2500
+F 0 "#PWR?" H 6350 2350 50  0001 C CNN
+F 1 "+5V" H 6365 2673 50  0000 C CNN
+F 2 "" H 6350 2500 50  0001 C CNN
+F 3 "" H 6350 2500 50  0001 C CNN
+	1    6350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 2650 6350 2650
+Wire Wire Line
+	5550 2650 5550 2800
+Wire Wire Line
+	6350 2500 6350 2650
+$Comp
+L Diode:BAT54S D?
+U 1 1 5D0BA90B
+P 5150 4250
+F 0 "D?" H 5150 4475 50  0000 C CNN
+F 1 "BAT54S" H 5150 4384 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5225 4375 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5030 4250 50  0001 C CNN
+	1    5150 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:BAT54S D?
+U 1 1 5D0BA915
+P 5150 5150
+F 0 "D?" H 5150 5283 50  0000 C CNN
+F 1 "BAT54S" H 5150 5374 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5225 5275 50  0001 L CNN
+F 3 "https://www.diodes.com/assets/Datasheets/ds11005.pdf" H 5030 5150 50  0001 C CNN
+	1    5150 5150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0BA91F
+P 4350 4600
+F 0 "R?" V 4300 4450 50  0000 C CNN
+F 1 "R" V 4300 4750 50  0000 C CNN
+F 2 "" V 4280 4600 50  0001 C CNN
+F 3 "~" H 4350 4600 50  0001 C CNN
+	1    4350 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5D0BA929
+P 4350 4800
+F 0 "R?" V 4300 4650 50  0000 C CNN
+F 1 "R" V 4300 4950 50  0000 C CNN
+F 2 "" V 4280 4800 50  0001 C CNN
+F 3 "~" H 4350 4800 50  0001 C CNN
+	1    4350 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Mini-DIN-6 J?
+U 1 1 5D0BA933
+P 5950 4700
+F 0 "J?" H 5950 4450 50  0000 C CNN
+F 1 "Mini-DIN-6" H 5950 4950 50  0000 C CNN
+F 2 "" H 5950 4700 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" H 5950 4700 50  0001 C CNN
+	1    5950 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4500 4600 5150 4600
+Connection ~ 5150 4600
+Wire Wire Line
+	5150 4600 5650 4600
+$Comp
+L power:GND #PWR?
+U 1 1 5D0BA940
+P 4850 4350
+F 0 "#PWR?" H 4850 4100 50  0001 C CNN
+F 1 "GND" H 4855 4177 50  0000 C CNN
+F 2 "" H 4850 4350 50  0001 C CNN
+F 3 "" H 4850 4350 50  0001 C CNN
+	1    4850 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4350 4850 4250
+Wire Wire Line
+	5150 4450 5150 4600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D0BA94C
+P 5450 4150
+F 0 "#PWR?" H 5450 4000 50  0001 C CNN
+F 1 "+3V3" H 5465 4323 50  0000 C CNN
+F 2 "" H 5450 4150 50  0001 C CNN
+F 3 "" H 5450 4150 50  0001 C CNN
+	1    5450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4150 5450 4250
+Wire Wire Line
+	4500 4800 5150 4800
+Wire Wire Line
+	5150 4950 5150 4800
+Connection ~ 5150 4800
+Wire Wire Line
+	5150 4800 5650 4800
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D0BA95B
+P 4850 5050
+F 0 "#PWR?" H 4850 4900 50  0001 C CNN
+F 1 "+3V3" H 4865 5223 50  0000 C CNN
+F 2 "" H 4850 5050 50  0001 C CNN
+F 3 "" H 4850 5050 50  0001 C CNN
+	1    4850 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5D0BA965
+P 5450 5250
+F 0 "#PWR?" H 5450 5000 50  0001 C CNN
+F 1 "GND" H 5455 5077 50  0000 C CNN
+F 2 "" H 5450 5250 50  0001 C CNN
+F 3 "" H 5450 5250 50  0001 C CNN
+	1    5450 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 5050 4850 5150
+Wire Wire Line
+	5450 5150 5450 5250
+NoConn ~ 6250 4600
+NoConn ~ 6250 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5D0BA973
+P 5550 4850
+F 0 "#PWR?" H 5550 4600 50  0001 C CNN
+F 1 "GND" H 5555 4677 50  0000 C CNN
+F 2 "" H 5550 4850 50  0001 C CNN
+F 3 "" H 5550 4850 50  0001 C CNN
+	1    5550 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4700 5550 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 5D0BA97E
+P 6350 4550
+F 0 "#PWR?" H 6350 4400 50  0001 C CNN
+F 1 "+5V" H 6365 4723 50  0000 C CNN
+F 2 "" H 6350 4550 50  0001 C CNN
+F 3 "" H 6350 4550 50  0001 C CNN
+	1    6350 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 4700 6350 4700
+Wire Wire Line
+	5550 4700 5550 4850
+Wire Wire Line
+	6350 4550 6350 4700
+$EndSCHEMATC

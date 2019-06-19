@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name lt_eval_board)(type Legacy)(uri ${KIPRJMOD}/lt_eval_board.lib)(options "")(descr ""))
+  (lib (name LT_Eval_board-rescue)(type Legacy)(uri ${KIPRJMOD}/LT_Eval_board-rescue.lib)(options "")(descr ""))
+)
