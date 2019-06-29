@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 8
 Title "LT_Eval_board"
 Date "2019-06-16"
 Rev "v1.0.0"
@@ -15,34 +15,34 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L lt_eval_board:LicheeTang U?
+L lt_eval_board:LicheeTang U1
 U 1 1 5D0D3438
 P 5700 3800
-F 0 "U?" H 5700 5900 50  0000 C CNN
+F 0 "U1" H 5700 5900 50  0000 C CNN
 F 1 "LicheeTang" H 5650 1700 50  0000 C CNN
-F 2 "" H 5200 4650 50  0001 C CNN
+F 2 "lt_eval_board:Lichee_Tang" H 5200 4650 50  0001 C CNN
 F 3 "" H 5200 4650 50  0001 C CNN
 	1    5700 3800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x40_Male J?
+L Connector:Conn_01x40_Male J1
 U 1 1 5D0EB726
 P 3000 3750
-F 0 "J?" H 3108 5831 50  0000 C CNN
+F 0 "J1" H 3108 5831 50  0000 C CNN
 F 1 "Conn_01x40_Male" H 3100 1650 50  0000 C CNN
-F 2 "" H 3000 3750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 3000 3750 50  0001 C CNN
 F 3 "~" H 3000 3750 50  0001 C CNN
 	1    3000 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_01x40_Male J?
+L Connector:Conn_01x40_Male J2
 U 1 1 5D0F701E
 P 8400 3850
-F 0 "J?" H 8550 1700 50  0000 R CNN
+F 0 "J2" H 8550 1700 50  0000 R CNN
 F 1 "Conn_01x40_Male" H 8850 5850 50  0000 R CNN
-F 2 "" H 8400 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8400 3850 50  0001 C CNN
 F 3 "~" H 8400 3850 50  0001 C CNN
 	1    8400 3850
 	-1   0    0    1   
