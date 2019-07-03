@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "LT_Eval_board"
 Date "2019-06-16"
 Rev "v1.0.0"
@@ -244,5 +244,11 @@ S 9250 1500 800  500
 U 5D1775F8
 F0 "Addon_Power" 50
 F1 "power.sch" 50
+$EndSheet
+$Sheet
+S 2100 3550 850  1000
+U 5D187063
+F0 "Joysticks" 50
+F1 "joystick.sch" 50
 $EndSheet
 $EndSCHEMATC

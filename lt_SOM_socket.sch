@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 9
 Title "LT_Eval_board"
 Date "2019-06-16"
 Rev "v1.0.0"
