@@ -39,13 +39,13 @@ $EndComp
 $Comp
 L Connector:Conn_01x40_Male J2
 U 1 1 5D0F701E
-P 8400 3850
-F 0 "J2" H 8550 1700 50  0000 R CNN
-F 1 "Conn_01x40_Male" H 8850 5850 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8400 3850 50  0001 C CNN
-F 3 "~" H 8400 3850 50  0001 C CNN
-	1    8400 3850
-	-1   0    0    1   
+P 8400 3750
+F 0 "J2" H 8550 1600 50  0000 R CNN
+F 1 "Conn_01x40_Male" H 8850 5750 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 8400 3750 50  0001 C CNN
+F 3 "~" H 8400 3750 50  0001 C CNN
+	1    8400 3750
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6800 1850 8200 1850
